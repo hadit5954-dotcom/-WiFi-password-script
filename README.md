@@ -47,6 +47,7 @@ Only works for networks you have previously connected to
 
 The netsh command is Windows-specific, so this script only works on Windows
 
+---
 
 ## 🚀 How it works
 Run the command netsh wlan show profiles to get all saved networks
@@ -57,12 +58,18 @@ Extract the Key Content (password) field
 
 Save all data in wifi_passwords.txt in the same folder
 
+---
+
 ## 🔒 Disclaimer
 For educational purposes only
 This script is designed for personal use to recover your own WiFi passwords. Use only on systems that you own or have permission to access. Unauthorized access to other people's networks is illegal and unethical.
 
+---
+
 ## 🌟 Give a star
 If this project was useful to you, please give it a ⭐!
+---
+
 
 
 
