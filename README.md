@@ -40,7 +40,7 @@ pyinstaller --onefile --console wifi_passwords.py
 Then run the wifi_passwords.exe file from the dist folder.
 
 
-⚠️ Important Notes
+## ⚠️ Important Notes
 Requires Administrator access to access WiFi passwords
 
 Only works for networks you have previously connected to
@@ -48,7 +48,7 @@ Only works for networks you have previously connected to
 The netsh command is Windows-specific, so this script only works on Windows
 
 
-🚀 How it works
+## 🚀 How it works
 Run the command netsh wlan show profiles to get all saved networks
 
 For each profile, run netsh wlan show profile name="..." key=clear
@@ -57,11 +57,11 @@ Extract the Key Content (password) field
 
 Save all data in wifi_passwords.txt in the same folder
 
-🔒 Disclaimer
+## 🔒 Disclaimer
 For educational purposes only
 This script is designed for personal use to recover your own WiFi passwords. Use only on systems that you own or have permission to access. Unauthorized access to other people's networks is illegal and unethical.
 
-🌟 Give a star
+## 🌟 Give a star
 If this project was useful to you, please give it a ⭐!
 
 
